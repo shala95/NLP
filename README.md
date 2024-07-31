@@ -1,6 +1,6 @@
 # NLP
 
-Table of Contents
+## Table of Contents
 
 Introduction
 Team Members
@@ -12,37 +12,39 @@ Model Training and Evaluation
 Results
 Contributions
 Acknowledgments
-Introduction
+
+## Introduction
 
 This project involves the application of Natural Language Processing (NLP) techniques to analyze and model text data. The work includes data preprocessing, exploratory data analysis, and training various NLP models to achieve the desired outcomes.
 
-Team Members
+## Team Members
 
 Mohamed Shala
 Maurizio tirabasi
 lorenzo bianchi
 Mattia Pazzano
 
-Project Structure
+## Project Structure
 
 NLP.ipynb: Notebook containing the NLP analysis and model training.
 Setup and Installation
 
 Clone the repository:
-
+```
 git clone <repository_url>
 cd <repository_directory>
-
+```
 Create and activate a virtual environment:
+```
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+```
 Install the required packages:
-
+```
 pip install -r requirements.txt
 Data Preparation
-
-The dataset consists of text data that has been preprocessed to remove noise and irrelevant information. Steps include:
+```
+### The dataset consists of text data that has been preprocessed to remove noise and irrelevant information. Steps include:
 
 Text cleaning (removal of punctuation, lowercasing, etc.)
 Tokenization
@@ -51,7 +53,7 @@ Exploratory Data Analysis (EDA)
 
 EDA was conducted to understand the distribution of the text data, identify common words and phrases, and visualize text patterns. Details are available in NLP.ipynb.
 
-Model Training and Evaluation
+## Model Training and Evaluation
 
 Various NLP models were trained and evaluated, including:
 
@@ -63,13 +65,14 @@ Results
 
 The performance of the models was evaluated using metrics such as accuracy, precision, recall, and F1-score. Detailed results and visualizations are documented in the NLP.ipynb notebook.
 
-Contributions
+## Contributions
 
 [Maurizio]: Data preprocessing and cleaning
 [lorenzo]: Exploratory data analysis and visualization
 [Shala]: Model training and evaluation
 [Mattia]: Documentation and report preparation
-Acknowledgments
+
+## Acknowledgments
 
 We acknowledge the guidance and support provided by our course instructors and peers.
 
